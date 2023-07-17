@@ -21,4 +21,9 @@
         <item>oplus,hall_tri_state_key</item>
         <item>oplus,tri-state-key</item>
     </string-array>
+
+    <!-- This should match the position of the physical switch, relative
+         to the top of the device and is used to align middle position
+         notification dialog -->
+    <item name="alert_slider_dialog_y" type="fraction">25%</item>
 </resources>
