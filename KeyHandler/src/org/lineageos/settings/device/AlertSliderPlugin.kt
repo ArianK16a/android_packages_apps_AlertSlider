@@ -109,6 +109,7 @@ class AlertSliderPlugin : OverlayPlugin {
 
         private fun handleUpdate(info: NotificationInfo) {
             dialog.setState(info.position, info.mode, info.flip)
+            handleResetTimeout()
         }
     }
 
