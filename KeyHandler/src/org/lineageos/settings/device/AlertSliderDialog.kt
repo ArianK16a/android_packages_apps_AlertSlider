@@ -71,12 +71,13 @@ class AlertSliderDialog(context: Context) : Dialog(context, R.style.alert_slider
                 x = context.resources.displayMetrics.widthPixels / 100
                 y = ((context.resources.displayMetrics.heightPixels * f) - (hv * 0.5)).toInt()
 
+                val shiftFactor = if (KeyHandler.isPositionSupported(context, KeyHandler.POSITION_MIDDLE)) 1.5 else 0.75
                 when (position) {
                     KeyHandler.POSITION_TOP -> {
-                        y -= (h * 1.5).toInt()
+                        y -= (h * shiftFactor).toInt()
                     }
                     KeyHandler.POSITION_BOTTOM -> {
-                        y += (h * 1.5).toInt()
+                        y += (h * shiftFactor).toInt()
                     }
                     else -> {}
                 }
