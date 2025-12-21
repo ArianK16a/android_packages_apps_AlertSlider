@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Alert slider -->
+    <string name="alert_slider_category_title">Slider d'alerte</string>
+    <string name="alert_slider_selection_dialog_title">Action</string>
+    <string name="alert_slider_top_position">Position supérieure</string>
+    <string name="alert_slider_middle_position">Position centrale</string>
+    <string name="alert_slider_bottom_position">Position inférieure</string>
+    <string name="alert_slider_mode_none">None</string>
+    <string name="alert_slider_mode_silent">Silencieux</string>
+    <string name="alert_slider_mode_normal">Normal</string>
+    <string name="alert_slider_mode_vibration">Vibration</string>
+    <string name="alert_slider_mode_dnd_priority_only">Prioritaire uniquement</string>
+    <string name="alert_slider_mode_dnd_total_silence">Silence total</string>
+    <string name="alert_slider_mode_dnd_alarms_only">Alarmes uniquement</string>
+    <string name="alert_slider_mute_media_title">Couper le son des médias</string>
+    <string name="alert_slider_mute_media_summary">Couper le son des médias lors du passage en mode silencieux</string>
+    <string name="alert_slider_notification_title">Type de notification</string>
+    <string name="alert_slider_notification_dialog_title">Notification</string>
+    <string name="alert_slider_notification_off">Désactivé</string>
+    <string name="alert_slider_notification_left">Afficher à gauche</string>
+    <string name="alert_slider_notification_right">Afficher à droite</string>
+</resources>
