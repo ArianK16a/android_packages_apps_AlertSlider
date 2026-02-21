@@ -3,6 +3,8 @@ android_app {
 
     srcs: ["src/**/*.kt"],
 
+    resource_dirs: ["res"],
+
     certificate: "platform",
     platform_apis: true,
     system_ext_specific: true,
